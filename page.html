@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CobraFácil — Gestão de cobranças simples e rápida</title>
+<meta name="description" content="Centralize clientes, cobranças, notificações, pagamentos e reclamações num só sítio.">
+<meta name="theme-color" content="#3346d3">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%233346d3'/%3E%3Cpath d='M9 16.5l4.5 4.5L23 11.5' fill='none' stroke='white' stroke-width='3' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../public/assets/css/app.css">
+<script src="../public/assets/js/app.js"></script>
+</head>
+<body class="landing">
+<a class="sr-only" href="#conteudo">Saltar para o conteúdo</a>
+<header class="site-header">
+  <div class="header-container">
+    <a href="page.html" class="logo" aria-label="CobraFácil — início"><span class="logo-mark"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.5 4.5L19 7.5"/></svg></span>CobraFácil</a>
+    <button class="nav-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="menu-principal"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
+    <nav class="main-nav" id="menu-principal" aria-label="Navegação principal">
+        <a href="page.html" aria-current="page">Início</a>
+        <a href="subscricao/subscricao.html">Planos</a>
+        <a href="login/login.html">Entrar</a>
+        <a href="registar/registar.html" class="btn btn-small">Criar conta</a>
+    </nav>
+  </div>
+</header>
+
+<main id="conteudo">
+  <section class="hero">
+    <div>
+      <span class="eyebrow"><svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg> Gestão de cobranças para empresas</span>
+      <h1>Cobre a tempo, sem andar atrás dos clientes.</h1>
+      <p>O CobraFácil centraliza clientes, cobranças, avisos automáticos, pagamentos e reclamações — com acesso seguro e suporte a moeda estrangeira.</p>
+      <div class="hero-actions">
+        <a href="registar/registar.html" class="btn btn-lg">Criar conta de empresa <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+        <a href="login/login.html" class="btn-secondary btn-lg">Entrar</a>
+      </div>
+      <p class="hero-note">Plano gratuito disponível. <a href="subscricao/subscricao.html">Ver planos e preços</a></p>
+    </div>
+    <div class="hero-visual"><div class="preview" aria-hidden="true">
+      <div class="preview-bar"><i></i><i></i><i></i></div>
+      <div class="preview-body">
+        <div class="preview-stats">
+          <div class="preview-stat"><span>Pagas</span><b>6</b></div>
+          <div class="preview-stat"><span>Pendentes</span><b>4</b></div>
+          <div class="preview-stat"><span>Em atraso</span><b>2</b></div>
+        </div>
+        <div class="preview-row"><div><strong>João Silva</strong><small>Serviço de manutenção</small></div><div class="amt">250,00 € <span class="badge badge-pendente">Pendente</span></div></div>
+        <div class="preview-row"><div><strong>Maria Santos</strong><small>Consultoria</small></div><div class="amt">180,00 € <span class="badge badge-atraso">Em atraso</span></div></div>
+        <div class="preview-row"><div><strong>Pedro Costa</strong><small>Desenvolvimento Web</small></div><div class="amt">500,00 € <span class="badge badge-pago">Pago</span></div></div>
+      </div>
+    </div></div>
+  </section>
+
+  <section class="band">
+    <div class="section">
+      <div class="section-head">
+        <h2>Tudo o que precisa para cobrar melhor</h2>
+        <p>Menos tarefas manuais, menos atrasos e uma relação mais clara com os seus clientes.</p>
+      </div>
+      <div class="features">
+        <article class="feature"><div class="feature-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 8a6 6 0 0 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></div><h3>Notificações automáticas</h3><p>Avisos a 7, 3 e 0 dias do prazo e marcação automática de atraso, com multa configurada.</p></article>
+        <article class="feature"><div class="feature-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect width="20" height="14" x="2" y="5" rx="2"/><path d="M2 10h20"/></svg></div><h3>Pagamentos</h3><p>Pagamento por cartão (Stripe) ou registo manual de transferência e referência multibanco.</p></article>
+        <article class="feature"><div class="feature-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4M8 2v4M3 10h18"/></svg></div><h3>Planos de pagamento</h3><p>Negociação em prestações, cada uma com valor e data de vencimento próprios.</p></article>
+        <article class="feature"><div class="feature-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div><h3>Reclamações</h3><p>Os clientes reclamam, a empresa responde e ambos acompanham o estado.</p></article>
+        <article class="feature"><div class="feature-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg></div><h3>Moeda estrangeira</h3><p>Fatura em EUR e mostra o equivalente na moeda do cliente.</p></article>
+        <article class="feature"><div class="feature-icon"><svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect width="18" height="11" x="3" y="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></div><h3>Acesso seguro</h3><p>Autenticação com palavra-passe e áreas separadas para empresas e clientes.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head"><h2>Como funciona</h2></div>
+    <div class="steps">
+      <div class="step"><svg class="step-art" viewBox="0 0 160 96" role="img" aria-label="Ilustração: empresa e novo registo"><rect x="1" y="1" width="158" height="94" rx="12" fill="var(--brand-50)"/><rect x="38" y="26" width="52" height="56" rx="6" fill="#fff" stroke="var(--brand)" stroke-width="2"/><g fill="var(--brand-100)"><rect x="46" y="35" width="10" height="8" rx="2"/><rect x="66" y="35" width="10" height="8" rx="2"/><rect x="46" y="50" width="10" height="8" rx="2"/><rect x="66" y="50" width="10" height="8" rx="2"/></g><rect x="57" y="66" width="14" height="16" rx="2" fill="var(--brand)"/><circle cx="116" cy="40" r="17" fill="var(--brand)"/><path d="M116 32v16M108 40h16" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/></svg><h3>Crie a conta da empresa</h3><p>Registe-se em poucos minutos e comece com o plano gratuito.</p></div>
+      <div class="step"><svg class="step-art" viewBox="0 0 160 96" role="img" aria-label="Ilustração: lista de clientes e cobranças"><rect x="1" y="1" width="158" height="94" rx="12" fill="var(--brand-50)"/><rect x="22" y="20" width="116" height="56" rx="8" fill="#fff" stroke="var(--line-strong)"/><g><circle cx="38" cy="36" r="6" fill="var(--brand-100)"/><rect x="50" y="32" width="46" height="5" rx="2.5" fill="var(--line-strong)"/><rect x="108" y="31" width="20" height="8" rx="4" fill="var(--warn-bg)"/><circle cx="38" cy="52" r="6" fill="var(--brand-100)"/><rect x="50" y="48" width="38" height="5" rx="2.5" fill="var(--line-strong)"/><rect x="108" y="47" width="20" height="8" rx="4" fill="var(--bad-bg)"/><circle cx="38" cy="68" r="6" fill="var(--brand-100)"/><rect x="50" y="64" width="52" height="5" rx="2.5" fill="var(--line-strong)"/><rect x="108" y="63" width="20" height="8" rx="4" fill="var(--ok-bg)"/></g></svg><h3>Adicione clientes e cobranças</h3><p>Cada cliente recebe acesso à sua própria área para consultar e pagar.</p></div>
+      <div class="step"><svg class="step-art" viewBox="0 0 160 96" role="img" aria-label="Ilustração: sino de avisos automáticos"><rect x="1" y="1" width="158" height="94" rx="12" fill="var(--brand-50)"/><path d="M80 22c-12 0-20 9-20 21 0 14-6 18-6 18h52s-6-4-6-18c0-12-8-21-20-21z" fill="var(--brand)"/><path d="M73 66a7 7 0 0 0 14 0" fill="none" stroke="var(--brand-700)" stroke-width="3" stroke-linecap="round"/><circle cx="80" cy="19" r="3" fill="var(--brand)"/><g stroke="var(--brand)" stroke-width="3" stroke-linecap="round" opacity=".55"><path d="M38 34c-4 5-4 11 0 16"/><path d="M122 34c4 5 4 11 0 16"/><path d="M28 28c-7 9-7 22 0 30"/><path d="M132 28c7 9 7 22 0 30"/></g></svg><h3>Deixe os avisos por nossa conta</h3><p>Os lembretes e as regras de atraso correm automaticamente.</p></div>
+    </div>
+  </section>
+
+  <section class="section" style="padding-top:0">
+    <div class="cta">
+      <div><h2>Pronto para organizar as suas cobranças?</h2><p>Comece gratuitamente e evolua de plano quando precisar.</p></div>
+      <a href="registar/registar.html" class="btn btn-lg">Criar conta de empresa <svg class="icon icon-sm" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M12 5l7 7-7 7"/></svg></a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-inner">
+    <span>© 2026 CobraFácil. Gestão e acompanhamento de cobranças.</span>
+    <nav aria-label="Rodapé"><a href="subscricao/subscricao.html">Planos</a><a href="login/login.html">Entrar</a><a href="registar/registar.html">Criar conta</a></nav>
+  </div>
+</footer>
+
+<script src="../public/assets/js/vendor/three.min.js"></script>
+<script src="../public/assets/js/coins.js"></script>
+</body>
+</html>
